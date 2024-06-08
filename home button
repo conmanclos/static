@@ -1,7 +1,7 @@
 <html>
 <body>
 <form>
-<input type="image" scr="imagefile">
+<input type="image" scr="homebutton.png">
 </body>
 </form>
 </html>
