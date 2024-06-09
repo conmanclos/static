@@ -1,7 +1,29 @@
+<doctype html>
 <html>
+<head>
+<title> input elament types lesson </title>
+</head>
+
 <body>
 <form>
-<input type="image" scr="homebutton.png">
-</body>
+name: <input> type="text" name="namefield" /> <br><br>
+
+password: <input> type="password" name="passwordfield"/> <br><br>
+
+gender:
+male: <input> type="radio" name="gender" value="male">
+female: <input> type="radio" name="gender" value="female"> <br><br>
+
+you profer:
+music: <input> type="checkbox" name="option1" value="music">
+sport: <input> type="checkbox" name="option2" value="sport"> <br><br>
+
+<input> type="file" accept="image/*"> <br><br>
+
+<input> type="image" src="homebutton.png"> <br><br>
+
+<input> type="reset" value="reset"/>
+<input> type="submit" value="submit"/>
 </form>
+</body>
 </html>
